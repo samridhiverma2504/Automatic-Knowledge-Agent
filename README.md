@@ -7,8 +7,6 @@ This project uses the Gemini API to classify research paper search queries into 
 
 The script evaluates Gemini’s performance on a labeled test set and reports overall classification accuracy.
 
----
-
 ## Features
 
 - Uses the Gemini API through the `google-genai` Python SDK
@@ -17,5 +15,3 @@ The script evaluates Gemini’s performance on a labeled test set and reports ov
 - Prints the model’s prediction alongside the expected label
 - Computes final accuracy over the full test set
 - Supports prompt variants with or without examples
-
----
